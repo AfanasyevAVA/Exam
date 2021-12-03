@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150D0B"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="207dp"
+            android:layout_height="151dp"
+            tools:src="@drawable/roup58" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etFirstName"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:accessibilityHeading="false"
+                android:ems="10"
+                android:text="Имя"
+                android:textColor="#AFAFAF" />
+
+            <EditText
+                android:id="@+id/etSecName"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:ems="10"
+                android:text="Фамилия"
+                android:textColor="#AFAFAF" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:ems="10"
+                android:text="Email"
+                android:textColor="#AFAFAF" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:ems="10"
+                android:text="Пароль"
+                android:textColor="#AFAFAF" />
+
+            <EditText
+                android:id="@+id/etRePassword"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:ems="10"
+                android:text="Повторите пароль"
+                android:textColor="#AFAFAF" />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:background="@color/black"
+                android:backgroundTint="#AE4B4B"
+                android:outlineAmbientShadowColor="#BD2A2A"
+                android:shadowColor="#6C2F2F"
+                android:text="Зарегистрироваться"
+                android:textColorHighlight="#B33434"
+                android:textColorHint="#8E3636"
+                android:textColorLink="#DA3D3D"
+                app:rippleColor="#912121"
+                app:strokeColor="#601919" />
+
+            <Button
+                android:id="@+id/btnAccount"
+                android:layout_width="343dp"
+                android:layout_height="44dp"
+                android:text="У меня уже есть аккаунт" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

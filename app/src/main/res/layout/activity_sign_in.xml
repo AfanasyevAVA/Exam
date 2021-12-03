@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150D0B"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="207dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/roup58" />
+
+    <TextView
+        android:id="@+id/etFirstName"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="33dp"
+        android:ems="10"
+        android:text="E-mail"
+        android:textColor="#AFAFAF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edSec"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="33dp"
+        android:ems="10"
+        android:text="Пароль"
+        android:textColor="#AFAFAF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="33dp"
+        android:background="@color/black"
+        android:backgroundTint="#AE4B4B"
+        android:outlineAmbientShadowColor="#BD2A2A"
+        android:shadowColor="#6C2F2F"
+        android:text="Войти"
+        android:textColorHighlight="#B33434"
+        android:textColorHint="#8E3636"
+        android:textColorLink="#DA3D3D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#912121"
+        app:strokeColor="#601919" />
+
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="33dp"
+        android:text="Регистрация"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
